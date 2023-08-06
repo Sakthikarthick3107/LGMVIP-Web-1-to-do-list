@@ -63,13 +63,13 @@ function App() {
           <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
             <Stack direction='row' spacing={0} sx={{backgroundColor:'transparent',padding:0,margin:0}}>
               <IconButton component={Link} href='https://github.com/Sakthikarthick3107' 
-                                target='blank' ><Avatar src={github} alt=''/></IconButton>
+                                target='_blank' ><Avatar src={github} alt=''/></IconButton>
               <IconButton component={Link} href='https://www.instagram.com/__intelligent__psycho__/' 
-                                target='blank' ><Avatar src={instagram} alt=''/></IconButton>
+                                target='_blank' ><Avatar src={instagram} alt=''/></IconButton>
               <IconButton component={Link} href='https://www.linkedin.com/in/sakthikarthick-nagendran-5b5050229/' 
-                                target='blank' ><Avatar src={linkedin} alt=''/></IconButton>
+                                target='_blank' ><Avatar src={linkedin} alt=''/></IconButton>
               <IconButton component={Link} href='mailto:sakthikarthick3107@gmail.com' 
-                                target='blank' ><Avatar src={mail} alt=''/></IconButton>
+                                target='_blank' ><Avatar src={mail} alt=''/></IconButton>
             </Stack>
           </Menu>
         
